@@ -3,3 +3,43 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#todo-list{
+  width: 500px;
+  text-align: center;
+  margin: 60px auto;
+  font-size: 22px;
+}
+
+li{
+  margin: 20px 0;
+}
+
+span{
+  padding: 6px 10px;
+  border-radius: 50%;
+}
+
+.add{
+  margin: 50px 0;
+}
+
+.add input{
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.add button{
+  font-size: 20px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+span, .add button{
+  background-color: red;
+  cursor: pointer;
+  float: right;
+  color: white;
+  font-weight: bold;
+}
